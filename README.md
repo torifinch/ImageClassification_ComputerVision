@@ -11,11 +11,11 @@ This project explores image classification on the CIFAR-10 dataset using a trans
 
 To enhance model performance and prevent overfitting, I incorporated:
 
-✅ **Image Resizing** to `64x64` resolution 
 ✅ Data augmentation (random horizontal flips and rotations)  
 ✅ Dropout layers in the classification head  
 ✅ AdamW optimizer with decoupled weight decay  
 ✅ EarlyStopping to monitor validation loss and stop training at the optimal point  
+✅ **Image Resizing** to `64x64` resolution 
 
 ---
 
