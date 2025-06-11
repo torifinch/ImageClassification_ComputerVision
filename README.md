@@ -11,6 +11,7 @@ This project explores image classification on the CIFAR-10 dataset using a trans
 
 To enhance model performance and prevent overfitting, I incorporated:
 
+✅ **Image Resizing** to `64x64` resolution 
 ✅ Data augmentation (random horizontal flips and rotations)  
 ✅ Dropout layers in the classification head  
 ✅ AdamW optimizer with decoupled weight decay  
@@ -32,10 +33,10 @@ To enhance model performance and prevent overfitting, I incorporated:
 
 ## 🏆 Final Results
 
-**Test Accuracy**: **61.26%**  
-**Test Loss**: **1.13**  
+**✅ 82.76% accuracy**  
+**✅ Test loss: 0.5323**
 
-This represents an improvement of ~9 percentage points over the baseline model. The combination of data augmentation, dropout, AdamW, and EarlyStopping helped the model generalize more effectively on this small dataset.
+This is a strong result considering the dataset size, small image resolution, and training constraints. These improvements raised accuracy by **+30%** compared to the baseline model.
 
 ---
 
